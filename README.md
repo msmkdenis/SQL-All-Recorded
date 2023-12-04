@@ -1,13 +1,13 @@
 ### Система управления персоналом «Всё записано»
 
-Необходимо использовать дамп БД [cars.csv](https://github.com/msmkdenis/sql-practicum/blob/main/sprint_1/cars.csv).
+Необходимо использовать дамп БД [practicum_sql_for_dev_project_3.sql](https://github.com/msmkdenis/SQL-All-Recorded/blob/main/practicum_sql_for_dev_project_3.sql).
 
 Требуется создать ряд таблиц, заполнить данными, а также создать ряд хранимых процедур и функций согласно заданиям, 
 которые оптимизируют и автоматизируют процессы извлечения, анализа и изменения данных.
 
 Результат решения - скрипт sql, выполнение которого должно происходить без ошибок.
 
-Полное решение доступно в файле [sprint_2.sql](https://github.com/msmkdenis/sql-practicum/blob/main/sprint_1/sprint_1.sql).
+Полное решение доступно в файле [sprint_3.sql](https://github.com/msmkdenis/SQL-All-Recorded/blob/main/sprint_3.sql).
 Ниже приведено решение задач по созданию процедур, функций и т.д.
 
 #### Задание 1
@@ -17,9 +17,7 @@
 На вход процедура принимает строку в формате json:
 ```json
 [
-    -- uuid сотрудника                                      процент изменения ставки
     {"employee_id": "6bfa5e20-918c-46d0-ab18-54fc61086cba", "rate_change": 10}, 
-    -- -- -- 
     {"employee_id": "5a6aed8f-8f53-4931-82f4-66673633f2a8", "rate_change": -5}
 ]
 ```
